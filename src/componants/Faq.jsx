@@ -11,27 +11,33 @@ function Faq(props) {
   return (
     <>
       <section
-        className={`pb-lg-5 py-4 position-relative overflow-hidden ${props.bgColor}`}
+        id="Faq"
+        className={`pb-lg-5 pb-4 pt-3 position-relative overflow-hidden ${props.bgColor}`}
       >
         <span
           style={{ margin: "70px 0 0 80px" }}
           className={`shadow_green_faq position-absolute ${props.hide}`}
         ></span>
         <div className="container py-5">
-          <h2 className=" ff_jakarta fw_med fs_4x8l text-white text-center opacity_09 mb-0">
+          <h2 className="ff_jakarta fw_med fs_4x8l text-white text-center opacity_09 mb-0 z_index1 position-relative">
             <span className="position-relative">
               Frequently
               <img
-                className="position-absolute top-0 start-0 translate-middle ms-5 ps-5 mb-5"
+                className={`position-absolute top-0 start-0 translate-middle ms-5 ps-5 mb-5 z_index--1 ${props.hideVector} `}
                 src={vector}
                 alt="vector"
               />
             </span>
-            Asked Questions
+            &nbsp; Asked Questions
           </h2>
-          <div className="row mt-5">
+          <div className="row mt-md-5 mt-4">
             <div className="col-lg-4">
-              <div className="pe-lg-2 d-flex flex-column flex-sm-row flex-lg-column mt-4 justify-content-between">
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="pe-lg-2 d-flex flex-column flex-sm-row flex-lg-column mt-4 justify-content-between"
+              >
                 <div
                   className={
                     activeTab === "Customer"

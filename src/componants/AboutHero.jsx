@@ -8,7 +8,7 @@ function AboutHero(props) {
     <>
       <section
         style={{ background: "#26B49C17" }}
-        className="py-5 position-relative mt-3 overflow-hidden"
+        className="py-md-5 position-relative mt-3 overflow-hidden"
       >
         <span
           style={{ margin: "70px 0 0 80px" }}
@@ -35,7 +35,12 @@ function AboutHero(props) {
             src={vactor}
             alt="icon"
           />
-          <div className="py-5 my-5 z_index1 position-relative">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="py-5 my-sm-5 my-4 z_index1 position-relative"
+          >
             <h1 className=" ff_jakarta fw-semibold fs_5x6l text-white text-center">
               {props.Head}
             </h1>

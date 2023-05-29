@@ -10,7 +10,7 @@ function Video() {
     setShowVideo(!showVideo);
   };
   return (
-    <section className="py-5 mt-5 position-relative">
+    <section className="py-5 mt-sm-5 position-relative">
       <span className="shadow_green_Team top-0 mt-5 start-0 position-absolute"></span>
       <span className="shadow_green_Team top-100 end-0 translate-middle position-absolute"></span>
 
@@ -21,13 +21,18 @@ function Video() {
             <span className="position-relative">
               Testimonials{" "}
               <img
-                className="arrow_vector_over_text position-absolute start-100 translate-middle-x ms-5 ps-5"
+                className="arrow_vector_over_text position-absolute start-100 translate-middle-x ms-5 ps-5 d-none d-sm-flex"
                 src={vector}
                 alt="img"
               />
             </span>
           </h2>
-          <div className="video-container d-flex justify-content-center mt-5 position-relative ">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="video-container d-flex justify-content-center mt-sm-5 mt-4 position-relative "
+          >
             {showVideo ? (
               <iframe
                 className="video_formatting"
@@ -54,7 +59,7 @@ function Video() {
               </div>
             )}
           </div>
-          <p className=" ff_jakarta fw_med fs_3x2l text-white mb-0 mt-4 pt-1">
+          <p className=" ff_jakarta fw_med fs_3x2l text-white mb-0 mt-sm-4 mt-2 pt-sm-1">
             A patient named Paddy, was suffering from dry AMD and temporary
             vision loss. Our strategies cured her and now she is living happily.
           </p>

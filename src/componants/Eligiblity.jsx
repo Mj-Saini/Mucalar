@@ -9,7 +9,7 @@ function Eligiblity() {
     <>
       <section
         id="Eligible"
-        className="py-5 my-lg-5 position-relative overflow-hidden"
+        className="pt-5 pb-4 my-lg-5 position-relative overflow-hidden"
       >
         <span className="shadow_green_eligiblity position-absolute"></span>
 
@@ -32,13 +32,18 @@ function Eligiblity() {
               </h2>
               <div className="row mt-lg-5 mt-4 justify-content-center">
                 {" "}
-                <div className="col-md-6 pt-2">
+                <div
+                  data-aos="fade-right"
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
+                  className="col-md-6 pt-2"
+                >
                   <div className=" border_onHover eligiblity_col_bg px-lg-5 px-4 py-lg-5 py-4 position-relative overflow-hidden">
                     <span className="shadow_green_success position-absolute ms-5"></span>
 
-                    <img src={green} alt="RIGHT" />
-                    <ul className="m-0 p-0 mt-4 z_index1 position-relative">
-                      <li className="ff_roboto fw-normal fs_md text_white mt-3">
+                    <img className="w-25" src={green} alt="RIGHT" />
+                    <ul className="m-0 p-0 mt-4  z_index1 position-relative">
+                      <li className="ff_roboto fw-normal fs_md text_white pt-3">
                         {" "}
                         <img
                           className="me-2 pe-1"
@@ -113,13 +118,18 @@ function Eligiblity() {
                     </ul>
                   </div>
                 </div>
-                <div className="col-md-6 pt-2 mt-4 mt-md-0 ">
-                  <div className="eligiblity_col_bg border_onHover px-lg-5 px-4 py-lg-5 py-4 position-relative overflow-hidden h-100">
+                <div className="col-md-6 pt-sm-2 mt-4 mt-md-0 ">
+                  <div
+                    data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000"
+                    className="eligiblity_col_bg border_onHover px-lg-5 px-4 py-lg-5 py-4 position-relative overflow-hidden h-100"
+                  >
                     <span className="shadow_green_success position-absolute ms-5"></span>
 
-                    <img src={wrong} alt="RIGHT" />
+                    <img className="w-25" src={wrong} alt="RIGHT" />
                     <ul className="m-0 p-0 mt-4 z_index1 position-relative h-100">
-                      <li className="ff_roboto fw-normal fs_md text_white mt-3">
+                      <li className="ff_roboto fw-normal fs_md text_white pt-3">
                         {" "}
                         <img
                           className="me-2 pe-1"

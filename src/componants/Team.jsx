@@ -11,11 +11,16 @@ function Team() {
         <span className="shadow_green_Team top-100 end-0 translate-middle-y position-absolute"></span>
 
         <div className="container">
-          <h2 className="ff_jakarta fw_med fs_4x8l text_white text-center">
+          <h2 className="ff_jakarta fw_med fs_4x8l text_white text-center z_index1 position-relative mb-0">
             Our Team
           </h2>
           <div className="row flex-lg-row align-items-center justify-content-between py-lg-5">
-            <div className="col-lg-5 mt-5 mt-lg-0">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="col-lg-5 mt-sm-5 mt-4 mt-lg-0"
+            >
               <div className="position-relative pt-3 ps-3 z_index1">
                 <span
                   style={{ borderRadius: "15px 0" }}
@@ -24,7 +29,12 @@ function Team() {
                 <img className="w-100" src={brian} alt="img" />
               </div>
             </div>
-            <div className="col-lg-6 mt-5 mt-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="col-lg-6 mt-5 mt-lg-0"
+            >
               <h2 className="ff_jakarta fw_med fs_3x2l text-white position-relative">
                 George W. Rozakis, MD
               </h2>
@@ -49,12 +59,17 @@ function Team() {
               </p>
             </div>
           </div>
-          <div className="row flex-lg-row align-items-center justify-content-between mt-5 pt-5 position-relative">
+          <div className="row flex-lg-row align-items-center justify-content-between mt-md-5 pt-md-5 position-relative flex-column-reverse flex-md-row  ">
             <span
               style={{ margin: "120px 0 0 0" }}
               className="shadow_green4 translate-middle-x position-absolute"
             ></span>
-            <div className="col-lg-6 mt-5 mt-lg-0">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="col-lg-6 mt-5 mt-lg-0"
+            >
               <div>
                 <h2 className="ff_jakarta fw_med fs_3x2l text-white position-relative">
                   Brian Bakke, Ph.D.
@@ -80,7 +95,12 @@ function Team() {
                 </p>
               </div>
             </div>{" "}
-            <div className="col-lg-5 mt-5 mt-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="col-lg-5 mt-5 mt-lg-0"
+            >
               <div className="position-relative p-3 z_index1">
                 <span
                   style={{ borderRadius: "0 15px" }}

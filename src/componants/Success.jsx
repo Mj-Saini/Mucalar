@@ -15,14 +15,14 @@ function Success() {
           src={success}
           alt="img"
         />
-        <div className="container d-flex flex-grow-1 align-items-center">
-          <div className="row align-items-center ">
+        <div className="container d-flex flex-grow-1 align-items-center py-5">
+          <div className="row align-items-center justify-content-center py-lg-5">
             <div className="col-lg-6">
-              <div className="success_col_bg px-md-4 px-3 py-md-4 py-2">
-                <h2 className=" ff_jakarta fw_med fs_4x8l text_white py-1 mb-0">
+              <div className="success_col_bg px-md-4 px-3 py-2 py-xl-4 py-2">
+                <h2 className=" ff_jakarta fw_med fs_4x8l text_white pt-1 mb-0">
                   Success: Strive, Thrive, and Shine
                 </h2>
-                <p className="ff_roboto fw-normal fs_md text_white opacity_07 mb-0 mt-3 pt-1 pb-md-3">
+                <p className="ff_roboto fw-normal fs_md text_white opacity_07 mb-0 mt-3 pe-xl-5  pb-md-3">
                   When it comes to achieving success, there are certain
                   qualities that can help you reach your goals. Had it not been
                   for our success in many patients we may never have pursued
@@ -33,7 +33,8 @@ function Success() {
                 </button>
               </div>
             </div>
-            <div className="col-lg-6 mt-4 mt-lg-0">
+            media (min-width: 992px) .img_success_position
+            <div className=" col-10 col-sm-9 col-md-7 col-lg-6 mt-4 mt-lg-0">
               <img
                 className="w-100 d-lg-none z_index1 position-relative"
                 src={success}

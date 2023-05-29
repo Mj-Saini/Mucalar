@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Slider from "react-slick";
 import img1 from "../assets/img/webp/img1.webp";
 import img2 from "../assets/img/webp/img2.webp";
 import img3 from "../assets/img/webp/im3.webp";
@@ -24,11 +23,11 @@ function Disease() {
     <>
       <section
         id="Disease"
-        className=" py-lg-5 mt-5 position-relative min_vh__100 d-flex"
+        className=" py-lg-5 mt-4 position-relative min_vh__100 d-flex"
       >
         <span className="shadow_green3 position-absolute"></span>
         <span className="shadow_green4 position-absolute"></span>
-        <div className="container ">
+        <div className="container pt-1 ">
           <div
             style={{ background: " #27BBA214", borderRadius: "20px" }}
             className="h-100"
@@ -48,10 +47,10 @@ function Disease() {
                 a range of problems, including:
               </p>
             </div>
-            <div className="row align-items-center py-md-5 pt-5 pt-md-0">
-              <div className="col-xxl-7 col-lg-6 h-100">
+            <div className="row align-items-center justify-content-center  py-lg-5 pt-4 ">
+              <div className="col-xxl-7 col-lg-6 h-100 mt-lg-5 ">
                 <div className="px-4 py-md-5 z_index1 position-relative d-flex flex-column align-items-center justify-content-center align-items-lg-start">
-                  <h2 className="ff_jakarta fw_med fs_3x2l text-white px-md-3 text-center text-lg-start">
+                  <h2 className="ff_jakarta fw_med fs_3x2l text-white  px-md-3 text-center text-lg-start mb-0">
                     Blurred or distorted central vision
                   </h2>
                   <p className="ff_roboto fw-normal fs_md text_white opacity_07 mb-0 mt-2 pt-1 px-md-3 text-center text-lg-start">
@@ -114,7 +113,7 @@ function Disease() {
                   </span>
                 </div>
               </div>
-              <div className="col-xxl-5 col-lg-6 mt_costom pt-lg-0 mt-lg-0">
+              <div className=" col-10 col-xxl-5 col-lg-6 mt_costom  pt-lg-0 mt-lg-0">
                 <div
                   onClick={() => {
                     Next();

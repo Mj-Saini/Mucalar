@@ -7,11 +7,15 @@ function Method() {
       <section id="Method" className="py-lg-5 py-4 mt-md-5 position-relative">
         <span className="shadow_green6 position-absolute"></span>
 
-        <div className="container">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-lg-6 mt-5 mt-lg-0">
-              <div>
-                <h2 className=" ff_jakarta fw_med fs_3x2l text-white">
+        <div className="container pt-md-5">
+          <div className="row align-items-center justify-content-lg-between justify-content-center">
+            <div className="col-lg-6 mt-4 mt-lg-0">
+              <div
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+              >
+                <h2 className=" ff_jakarta fw_med fs_3x2l text-white mb-0">
                   The HOMING Method
                 </h2>
                 <p className="ff_roboto fw-normal fs_md text_white opacity_07 mb-0 mt-3 pt-1 pb-1">
@@ -161,8 +165,13 @@ function Method() {
                 </div>
               </div>
             </div>{" "}
-            <div className="col-lg-5">
-              <div className="position-relative p-3 z_index1 w-100">
+            <div className=" col-10 col-md-8 col-lg-5 mt-4 mt-lg-0 ">
+              <div
+                data-aos="fade-left"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="position-relative p-3 z_index1 w-100"
+              >
                 <span
                   style={{ borderRadius: "0 0 15.87px 0" }}
                   className="colored_box_behind_img2 z_index--1"

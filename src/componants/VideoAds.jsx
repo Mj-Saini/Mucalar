@@ -9,7 +9,7 @@ function VideoAds() {
     setShowVideo(!showVideo);
   };
   return (
-    <section className="py-5 mt-lg-5 position-relative">
+    <section className="py-sm-5 mt-lg-5 position-relative">
       <span className="shadow_green_Team top-0 mt-5 start-0 position-absolute"></span>
       <span className="shadow_green_Team top-100 end-0 translate-middle position-absolute"></span>
 
@@ -17,7 +17,12 @@ function VideoAds() {
         <div className="row">
           {VideoCards.map((data) => {
             return (
-              <div className="col-md-4 col-sm-6 mt-5">
+              <div
+                data-aos="fade-up"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="col-md-4 col-sm-6 mt-4"
+              >
                 <div
                   style={{
                     background: "#27BBA214",
@@ -47,10 +52,10 @@ function VideoAds() {
                       </div>
                     )}
                   </div>
-                  <h3 className="ff_jakarta fw_med fs_xl text_white mt-lg-3 mt-2 mb-0 px-3">
+                  <h3 className="ff_jakarta fw_med fs_xl text_white mt-lg-3 mt-2 mb-0 px-lg-3 px-2">
                     {data.name}
                   </h3>
-                  <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-lg-3 mt-2 px-3">
+                  <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-lg-3 mt-2 px-lg-3 px-2">
                     {data.about}
                   </p>
                 </div>

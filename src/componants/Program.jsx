@@ -10,10 +10,15 @@ function Program() {
           <h2 className="ff_jakarta fw_med fs_4x8l text-white opacity_09 text-center mb-0">
             The Experts behind the Program
           </h2>
-          <div className="row mt-5">
-            <div className="col-md-6">
+          <div className="row justify-content-center mt-5">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className=" col-10 col-sm-9  col-md-6"
+            >
               <img className="w-100" src={brian} alt="a-man-img" />
-              <div className="d-flex justify-content-between align-items-center  mt-3">
+              <div className="d-flex justify-content-between align-items-center mt-sm-3">
                 <p className=" ff_jakarta fw-semibold fs_2x4l text_white mb-0">
                   Brian A. Bakke, PhD
                 </p>
@@ -41,13 +46,18 @@ function Program() {
                   </svg>
                 </a>
               </div>
-              <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-2">
+              <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-sm-2">
                 PhD Biochemistry
               </p>
             </div>
-            <div className="col-md-6 mt-5 mt-md-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className=" col-10  col-sm-9 col-md-6 mt-4 mt-md-0"
+            >
               <img className="w-100" src={groge} alt="a-man-img" />
-              <div className="d-flex justify-content-between align-items-center  mt-3">
+              <div className="d-flex justify-content-between align-items-center  mt-sm-3">
                 <p className=" ff_jakarta fw-semibold fs_2x4l text_white mb-0">
                   George W. Rozakis Md
                 </p>
@@ -75,7 +85,7 @@ function Program() {
                   </svg>
                 </a>
               </div>
-              <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-2">
+              <p className="ff_roboto fw-normal fs_md text_white mb-0 mt-sm-2">
                 Biomedical Engineer
               </p>
             </div>

@@ -148,7 +148,7 @@
 .square_btn span {
   background: transparent;
   border-radius: 5px;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border: 1px solid transparent;
   background: linear-gradient(139.21deg, #27bba2 -13.86%, #1f8f45 112.5%);
   -webkit-background-clip: text;
@@ -166,7 +166,7 @@
 .square_btn {
   border-radius: 5px;
   background-color: transparent;
-  padding: 15px 30px;
+  padding: 15px 20px;
   border: unset !important;
 }
 .square_btn:hover {
@@ -219,7 +219,6 @@
   bottom: 103px;
   left: 150px;
 }
-/* Disease */
 
 @media (max-width: 576px) {
   :root {
@@ -227,10 +226,10 @@
     --fs-sm: 14px;
     --fs-md: 14px;
     --fs-xl: 16px;
-    --fs-2x4l: 24px;
-    --fs-3x2l: 26px;
-    --fs-4x8l: 32px;
-    --fs-5x6l: 36px;
+    --fs-2x4l: 17px;
+    --fs-3x2l: 16px;
+    --fs-4x8l: 27px;
+    --fs-5x6l: 32px;
   }
 }
 @media (min-width: 576px) {
@@ -240,7 +239,7 @@
     --fs-md: 14px;
     --fs-xl: 16px;
     --fs-2x4l: 24px;
-    --fs-3x2l: 32px;
+    --fs-3x2l: 22px;
     --fs-4x8l: 28px;
     --fs-5x6l: 56px;
   }
@@ -256,7 +255,7 @@
     --fs-md: 14px;
     --fs-xl: 16px;
     --fs-2x4l: 24px;
-    --fs-3x2l: 32px;
+    --fs-3x2l: 22px;
     --fs-4x8l: 32px;
     --fs-5x6l: 42px;
   }

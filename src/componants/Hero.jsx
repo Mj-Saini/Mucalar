@@ -41,7 +41,13 @@ function Hero() {
       <Header acTive="nav_tab_onhover" />
       <div className="container flex-grow-1 justify-content-center align-items-center d-flex">
         <div className="row">
-          <div className="col-md-8 mx-auto">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            data-aos-delay="400"
+            className="col-md-8 mx-auto"
+          >
             <h1 className="ff_jakarta fw-semibold fs_5x6l text-white text-center mt-5 pt-lg-5 z_index1 mb-0">
               Seeing life{" "}
               <span className=" position-relative z_index2 d-inline-block">

@@ -13,7 +13,7 @@ function Testemonial() {
       <AboutHero Head="What people say " />
       <Video />
       <Experience />
-      <Faq />
+      <Faq hideVector="d-none" />
       <Footer />
     </div>
   );

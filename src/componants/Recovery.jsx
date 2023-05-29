@@ -7,19 +7,28 @@ import recovery from "../assets/img/svg/patient-recovery.svg";
 function Recovery() {
   return (
     <>
-      <section className="py-lg-5 py-4 my-md-5 position-relative ">
+      <section className="py-lg-4 py-4 my-md-4 position-relative ">
         <span className="shadow_green5 position-absolute top-50 translate-middle-y"></span>
 
         <div className="container py-lg-5 mb-5">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-lg-5 col-md-6 mt-md-5  mt-lg-0">
-              <div className="position-relative p-3 z_index1">
+          <div className="row align-items-center justify-content-between ">
+            <div className="  col-lg-5 col-md-6 mt-md-5 mt-lg-0">
+              <div
+                data-aos="fade-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
+                className="position-relative p-3 z_index1"
+              >
                 <span className="colored_box_behind_img_bottom z_index--1"></span>
-                <img className="w-100" src={patient} alt="img" />
+                <img
+                  className="w-100 mt-sm-5 mt-4 mt-md-0"
+                  src={patient}
+                  alt="img"
+                />
                 <div className="d-flex justify-content-center gap-4">
                   <div className="transprant_card_over_img d-flex">
                     <img src={eye} alt="img" />
-                    <p className="ff_jakarta fw_med fs_md text_white ms-3 mb-0 ps-1">
+                    <p className="ff_poppins fw-normal fs_md text_white ms-3 mb-0 ps-1">
                       Macular <span className="d-block"> Degeneration</span>
                     </p>
                   </div>{" "}
@@ -28,7 +37,7 @@ function Recovery() {
                       <img className="me-2 pe-1" src={recovery} alt="img" />
                       Patient Recover
                     </span>
-                    <p className="ff_jakarta fw_med fs_md text_white  mb-0 mt-2">
+                    <p className="ff_poppins fw-normal fs_md text_white opacity_09  mb-0 mt-2">
                       We are using an injection{" "}
                       <span className="d-block">to stop the growth factor</span>{" "}
                       of Retina
@@ -37,7 +46,12 @@ function Recovery() {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 mt-5 mt-lg-0 ps-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="col-md-6 mt-5 mt-lg-0 ps-lg-0 ps-md-5"
+            >
               <h2 className=" ff_jakarta fw_med fs_4x8l text-white opacity_09 position-relative mt-5 mt-md-0">
                 More than 50% patients recovered
                 <img

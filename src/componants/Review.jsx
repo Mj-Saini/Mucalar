@@ -16,48 +16,50 @@ function Review() {
   };
   return (
     <>
-      <section id="Review" className="py-4 pt-lg-5 mt-5 position-relative">
-        <div className="container position-relative py-lg-5 mt-lg-5">
+      <section id="Review" className="pt-4 pt-lg-5 mt-5  position-relative ">
+        <div className="container position-relative py-lg-5 mt-lg-5 ">
           <span
             style={{ margin: "50px 0 0 80px" }}
             className="shadow_green4 top-50 start-0 translate-middle-y position-absolute"
           ></span>
-          <h2 className="ff_jakarta fw_med fs_4x8l text-white opacity_09 text-center mb-0 pt-md-3 px-3">
-            <span className="position-relative">
-              {" "}
-              What{" "}
+          <h2 className="ff_jakarta fw_med fs_4x8l text-white opacity_09 text-center mb-0 pt-md-3 px-3 z_index1 position-relative">
+            <span className="position-relative me-2">
+              What
               <img
                 style={{ padding: "0 180px 0 0" }}
-                className="arrow_vector_over_text position-absolute start-0 translate-middle-x"
+                className="arrow_vector_over_text position-absolute start-0 translate-middle-x z_index--1"
                 src={Arrow}
                 alt="curve-arrow"
               />
-            </span>{" "}
+            </span>
             our patients say
           </h2>
           <p className="ff_roboto fw-normal fs_md text_white opacity_07 text-center mb-0 mt-2 pt-1 px-3">
             Viverra nisi integer convallis ultricies tellus mauris. Ante purus
-            pretium ac vitae morbi in{" "}
+            pretium ac vitae morbi in
             <span className="d-md-block">
               ultricies ut. Orci pharetra adipiscing ut.
             </span>
           </p>
           <Slider ref={MyBtn} {...settings}>
             <div style={{ background: "##151515" }} className=" bg_black">
-              <div className="row align-items-center justify-content-between bg-transparent">
-                <div className="col-lg-5 mt-md-4 mt-lg-0">
-                  <div className="w-100 my-lg-4 pb-lg-4 pb-sm-0 py-2 z_index1 position-relative d-flex">
-                    <img className="w-100 pe-lg-4" src={grid} alt="img" />
+              <div className="row align-items-center justify-content-center justify-content-lg-between bg-transparent">
+                <div className="   col-10 col-md-8 col-lg-5 mt-md-4 mt-lg-0">
+                  <div className="w-100 my-lg-4 pb-lg-4 pb-sm-0 py-2 z_index1 position-relative d-flex justify-content-center">
+                    <img
+                      className="w_xsm_100 w_sm_75 w_lg_100 pe-lg-4"
+                      src={grid}
+                      alt="img"
+                    />
                   </div>
-                </div>{" "}
-                <div className="col-lg-6 ">
+                </div>
+                <div className="col-lg-6">
                   <div className="px-4  flex-column-reverse flex-lg-column  pt-4 z_index1 position-relative d-flex flex-column align-items-center align-items-lg-start">
                     <div className=" pt-4 z_index1 position-relative d-flex flex-column align-items-center align-items-lg-start">
-                      {" "}
                       <h2 className=" ff_jakarta fw_med fs_2x4l text_white">
                         Alex willson
                       </h2>
-                      <p className="ff_roboto fw-normal fs_md text-white opacity_07 mb-0 mt-2 pt-1">
+                      <p className="ff_roboto fw-normal fs_md text-white opacity_07 mb-0 mt-2 pt-1 text-center text-lg-start">
                         Lectus adipiscing pulvinar et praesent justo libero
                         luctus tortor. A semper feugiat non dui ut egestas eu.
                         Euismod eu fames ante in vestibulum duis in odio. Amet
@@ -71,7 +73,7 @@ function Review() {
                         Read More...
                       </a>
                     </div>
-                    <span className="d-flex gap-3 mt-lg-5 mt-4">
+                    <span className="d-flex gap-3 mt-lg-5 mt-md-4">
                       <svg
                         onClick={() => MyBtn.current.slickPrev()}
                         style={{ rotate: "180deg" }}
@@ -128,11 +130,10 @@ function Review() {
                   <div className="w-100 my-sm-4 pb-4 pb-sm-0 py-2 z_index1 position-relative d-flex">
                     <img className="w-100 pe-lg-4" src={grid} alt="img" />
                   </div>
-                </div>{" "}
+                </div>
                 <div className="col-lg-6 ">
                   <div className="px-4  flex-column-reverse flex-lg-column  pt-4 z_index1 position-relative d-flex flex-column align-items-center align-items-lg-start">
                     <div className=" pt-4 z_index1 position-relative d-flex flex-column align-items-center align-items-lg-start">
-                      {" "}
                       <h2 className=" ff_jakarta fw_med fs_2x4l text_white">
                         Alex willson
                       </h2>
@@ -150,7 +151,7 @@ function Review() {
                         Read More...
                       </a>
                     </div>
-                    <span className="d-flex gap-3 mt-lg-5 mt-4">
+                    <span className="d-flex gap-3  mt-4">
                       <svg
                         onClick={() => MyBtn.current.slickPrev()}
                         style={{ rotate: "180deg" }}

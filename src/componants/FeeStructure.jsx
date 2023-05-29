@@ -11,7 +11,12 @@ function FeeStructure() {
 
       <div className="container pb-lg-5 mb-4">
         <div className="row">
-          <div className="col-lg-6">
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            className="col-lg-6"
+          >
             <h2 className="z-index2 ff_jakarta fw_med fs_4x8l text-white opacity_09 position-relative text-center text-lg-start">
               Fee Structure
               <img
@@ -25,7 +30,12 @@ function FeeStructure() {
             </div>
           </div>
           <div className="col-lg-6 position-relative">
-            <div className="d-flex flex-column gap-4 z_index1 ">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
+              className="d-flex flex-column gap-4 z_index1 "
+            >
               <img
                 className="position-absolute fee_vector_position z_index0 d-none d-sm-flex"
                 src={vector}
@@ -40,7 +50,7 @@ function FeeStructure() {
                 style={{ background: "#25AE8614", borderRadius: "16px" }}
                 className="py-4 px-3 z_index3 position-relative border_onHover"
               >
-                <h2 className=" ff_jakarta fw_med fs_2x4l text-white mb-0 ps-1 ">
+                <h2 className="ff_jakarta fw_med fs_2x4l text-white mb-0">
                   One Time Enrollment $3000/y
                 </h2>
                 <p className=" ff_roboto fw-normal fs_md text-white opacity_07 mb-0 mt-1 pe-lg-3">
@@ -52,8 +62,8 @@ function FeeStructure() {
                 style={{ background: "#25AE8614", borderRadius: "16px" }}
                 className="py-4 px-3 z_index1 border_onHover"
               >
-                <h2 className=" ff_jakarta fw_med fs_2x4l text-white mb-0 ps-1 ">
-                  One Time Enrollment $3000/y
+                <h2 className=" ff_jakarta fw_med fs_2x4l text-white mb-0">
+                  Medical Grade Supplements $80-125/m
                 </h2>
                 <p className=" ff_roboto fw-normal fs_md text-white opacity_07 mb-0 mt-1 pe-lg-3">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
@@ -64,8 +74,8 @@ function FeeStructure() {
                 style={{ background: "#25AE8614", borderRadius: "16px" }}
                 className="py-4 px-3 z_index1 border_onHover"
               >
-                <h2 className=" ff_jakarta fw_med fs_2x4l text-white mb-0 ps-1 ">
-                  One Time Enrollment $3000/y
+                <h2 className=" ff_jakarta fw_med fs_2x4l text-white mb-0">
+                  Maintenance $450/ Lab check
                 </h2>
                 <p className=" ff_roboto fw-normal fs_md text-white opacity_07 mb-0 mt-1 pe-lg-3">
                   Amet minim mollit non deserunt ullamco est sit aliqua dolor do
